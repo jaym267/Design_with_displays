@@ -3,8 +3,7 @@
 For week 4 of Hack Club Half-Life, I designed a small RGB mood light board. A Seeed XIAO RP2040 drives a 5 mm RGB LED. A push button cycles through 7 colours, and a slide potentiometer sets the brightness from off to full.
 
 ## What I did
-<img width="1834" height="786" alt="Screenshot 2026-11-01 142151" src="https://github.com/user-attachments/assets/9ba4a27a-b3c2-44e1-a819-9a8da0885325" />
-
+ <img width="1517" height="840" alt="Screenshot 2026-11-01 140233" src="https://github.com/user-attachments/assets/d1f69bb8-9c00-4c97-ab97-6c46c526d714" />
 ### 1. Planned the project
 I followed the Tier 1 "5 mm LEDs" guide and picked the RGB mood light as my build: one common-cathode RGB LED, a slide pot, and a button, all controlled by a XIAO RP2040.
 
@@ -41,7 +40,8 @@ I followed the Tier 1 "5 mm LEDs" guide and picked the RGB mood light as my buil
 - I wrote an Arduino sketch for the Seeed XIAO RP2040 using the arduino-pico core.
 - Each button press steps through 7 colours, and the slider sets brightness with PWM.
 - It compiles successfully, and I'll flash it at build week.
-- <img width="1517" height="840" alt="Screenshot 2026-11-01 140233" src="https://github.com/user-attachments/assets/d1f69bb8-9c00-4c97-ab97-6c46c526d714" />
+-
+<img width="1834" height="786" alt="Screenshot 2026-11-01 142151" src="https://github.com/user-attachments/assets/9ba4a27a-b3c2-44e1-a819-9a8da0885325" />
 
 ### 9. Pushed everything to GitHub
 This repo holds the KiCad project (`rgb-light/`) and the firmware (`rgb_light_firmware/`).
